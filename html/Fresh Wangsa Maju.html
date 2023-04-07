@@ -1,0 +1,78 @@
+<!DOCTYPE.html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="Home.css">
+<link rel="stylesheet" typr="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+function stickyMenu(){
+    var sticky=document.getElementById('sticky');
+    if(window.pageYOffset>220){
+        sticky.classList.add('sticky');
+    }
+    else{
+        sticky.classList.remove('sticky');
+    }
+}
+window.onscroll=function(){
+    stickyMenu();
+}
+
+
+</script>
+</head>
+
+<Body>
+    <div class="parallax">
+        <div class="page-title">Fresh</div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="Home.html" class="a-menu"><li>Home</li></a>
+            <a href="About Us.html" class="a-menu"><li>About Us</li></a>
+            <a href="Deals.html" class="a-menu"><li>Deals</li></a>
+            <a href="Vegetables.html" class="a-menu"><li>Vegetables</li></a>
+            <a href="Fruits.html" class="a-menu"><li>Fruits</li></a>
+            <a href="Meats.html" class="a-menu"><li>Meat & Seafood</li></a>
+            <a href="Cart.html" class="a-menu"><li>Cart</li></a>
+            <a href="Login.html" class="a-menu"><li>Login</li></a>
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="search..." name="search" class="search-input"/>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <p>
+        <div class="Location">
+          <strong>Address</strong>
+          <br>Jalan R1, Seksyen 1,
+          <br>Bandar Baru Wangsa Maju 53000
+          <br>Kuala Lumpur
+    </p>
+    <br>
+
+    <p>
+          <strong>FRESH Careline</strong>
+          <br>03-42508888
+    </p>
+    <br>
+
+    <p>
+          <strong>Business Time</strong>
+          <br>(Sun - Thu) 10.00am - 11.00pm
+          <br>(Fri - Sat) 10.00am - 11.00pm
+    </p>
+    <br>
+
+    <h1>FRESH Taman Maluri Location Map</h1>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7967.17801842386!2d101.73417!3d3.20212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc383c8d3410f5%3A0x1b8b559ece59d193!2sAEON%20Wangsa%20Maju%20Alpha%20Angle!5e0!3m2!1sen!2sus!4v1679671297733!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    <br>
+         </div>
+
+
+
+
+</Body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE.html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="Home.css">
+<link rel="stylesheet" typr="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+function stickyMenu(){
+    var sticky=document.getElementById('sticky');
+    if(window.pageYOffset>220){
+        sticky.classList.add('sticky');
+    }
+    else{
+        sticky.classList.remove('sticky');
+    }
+}
+window.onscroll=function(){
+    stickyMenu();
+}
+
+
+</script>
+</head>
+
+<Body>
+    <div class="parallax">
+        <div class="page-title">Fresh</div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="Home.html" class="a-menu"><li>Home</li></a>
+            <a href="About Us.html" class="a-menu"><li>About Us</li></a>
+            <a href="Deals.html" class="a-menu"><li>Deals</li></a>
+            <a href="Vegetables.html" class="a-menu"><li>Vegetables</li></a>
+            <a href="Fruits.html" class="a-menu"><li>Fruits</li></a>
+            <a href="Meats.html" class="a-menu"><li>Meat & Seafood</li></a>
+            <a href="Cart.html" class="a-menu"><li>Cart</li></a>
+            <a href="Login.html" class="a-menu"><li>Login</li></a>
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="search..." name="search" class="search-input"/>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+ <!--Fruits Begins Here-->
+       <div class="deals-container" id="Fruits">
+            <div class="parallax">
+                 <div class="title">FRUITS</div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/fruits/apple.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Apple</b><br/>
+                     <div class="item-select">
+                          Price: RM3.00/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/fruits/strawberries.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Strawberries</b><br/>
+                     <div class="item-select">
+                          Price: RM5.99/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/fruits/bananas.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Bananas</b><br/>
+                     <div class="item-select">
+                          Price: RM2.00/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/fruits/Dragon fruit.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Dragon Fruit</b><br/>
+                     <div class="item-select">
+                          Price: RM2.99/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/fruits/Watermelon.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Watermelon</b><br/>
+                     <div class="item-select">
+                          Price: RM1.99/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/fruits/Grapes.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic grapes</b><br/>
+                     <div class="item-select">
+                          Price: RM2.00/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="img/fruits/Avocado.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Avocado</b><br/>
+                    <div class="item-select">
+                         Price: RM2.00/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+           <div class="items">
+                <div class="images">
+                    <img src="img/fruits/Oranges.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Oranges</b><br/>
+                    <div class="item-select">
+                         Price: RM1.50/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+           <div class="items">
+                <div class="images">
+                    <img src="img/fruits/Mangoes.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Mangoes</b><br/>
+                    <div class="item-select">
+                         Price: RM1.70/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+           <div class="items">
+            <div class="images">
+                <img src="img/fruits/Kiwi.png" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b>Kiwi</b><br/>
+                <div class="item-select">
+                     Price: RM2.20/250grams
+                </div>
+                <label>Qty:</label>
+                <select class="item-select">
+                    <option>250 grams</option>
+                    <option>500 grams</option>
+                    <option>750 grams</option>
+                    <option>1000 grams</option>
+                </select><br/>
+                <button class="buynow-btn">Buy Now</button>
+            </div>
+       </div>
+       <div class="items">
+        <div class="images">
+            <img src="img/fruits/guava.png" class="item-image-size"/>
+        </div>
+        <div class="description">
+            <b>Guava</b><br/>
+            <div class="item-select">
+                 Price: RM1.90/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br/>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+   </div>
+   <div class="items">
+    <div class="images">
+        <img src="img/fruits/Pear.png" class="item-image-size"/>
+    </div>
+    <div class="description">
+        <b>Pear</b><br/>
+        <div class="item-select">
+             Price: RM2.00/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select">
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+</div>
+              
+       </div>
+   <!--Fruits Ends Here-->

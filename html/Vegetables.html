@@ -1,0 +1,295 @@
+<!DOCTYPE.html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="Home.css">
+<link rel="stylesheet" typr="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+function stickyMenu(){
+    var sticky=document.getElementById('sticky');
+    if(window.pageYOffset>220){
+        sticky.classList.add('sticky');
+    }
+    else{
+        sticky.classList.remove('sticky');
+    }
+}
+window.onscroll=function(){
+    stickyMenu();
+}
+
+
+</script>
+</head>
+
+<Body>
+    <div class="parallax">
+        <div class="page-title">Fresh</div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="Home.html" class="a-menu"><li>Home</li></a>
+            <a href="About Us.html" class="a-menu"><li>About Us</li></a>
+            <a href="Deals.html" class="a-menu"><li>Deals</li></a>
+            <a href="Vegetables.html" class="a-menu"><li>Vegetables</li></a>
+            <a href="Fruits.html" class="a-menu"><li>Fruits</li></a>
+            <a href="Meats.html" class="a-menu"><li>Meat & Seafood</li></a>
+            <a href="Cart.html" class="a-menu"><li>Cart</li></a>
+            <a href="Login.html" class="a-menu"><li>Login</li></a>
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="search..." name="search" class="search-input"/>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+<!--Vegetables Begins Here-->
+       <div class="deals-container" id="vegetables">
+            <div class="parallax">
+                 <div class="title">VEGETABLES</div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/vegetables/Spinach.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Spinach</b><br/>
+                     <div class="item-select">
+                          Price: RM2.99/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/vegetables/carrots.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Carrots</b><br/>
+                     <div class="item-select">
+                          Price: RM3.99/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/vegetables/Cauliflower.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Cauliflower</b><br/>
+                     <div class="item-select">
+                          Price: RM2.50/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/vegetables/Green Pepper.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Green Pepper</b><br/>
+                     <div class="item-select">
+                          Price: RM1.99/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/vegetables/Sweet corn.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Sweet Corn</b><br/>
+                     <div class="item-select">
+                          Price: RM2.00/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                 <div class="images">
+                     <img src="img/vegetables/tomatoes.png" class="item-image-size"/>
+                 </div>
+                 <div class="description">
+                     <b>Organic Tomatoes</b><br/>
+                     <div class="item-select">
+                          Price: RM1.80/250grams
+                     </div>
+                     <label>Qty:</label>
+                     <select class="item-select">
+                         <option>250 grams</option>
+                         <option>500 grams</option>
+                         <option>750 grams</option>
+                         <option>1000 grams</option>
+                     </select><br/>
+                     <button class="buynow-btn">Buy Now</button>
+                 </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="img/vegetables/Potato.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Potato</b><br/>
+                    <div class="item-select">
+                         Price: RM1.00/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+           <div class="items">
+                <div class="images">
+                    <img src="img/vegetables/Pumkin.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Sweet Pumkin</b><br/>
+                    <div class="item-select">
+                     Price: RM3.00/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="img/vegetables/Cabbage.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Cabbage</b><br/>
+                    <div class="item-select">
+                         Price: RM1.80/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+            <div class="items">
+                <div class="images">
+                    <img src="img/vegetables/Cucumber.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Organic Cucumber</b><br/>
+                    <div class="item-select">
+                         Price: RM1.50/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+            <div class="items">
+                <div class="images">
+                    <img src="img/vegetables/Eggplant.png" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Eggplant</b><br/>
+                    <div class="item-select">
+                         Price: RM1.00/250grams
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br/>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+           </div>
+           <div class="items">
+            <div class="images">
+                <img src="img/vegetables/Okra.png" class="item-image-size"/>
+            </div>
+            <div class="description">
+                <b>Okra</b><br/>
+                <div class="item-select">
+                     Price: RM1.00/250grams
+                </div>
+                <label>Qty:</label>
+                <select class="item-select">
+                    <option>250 grams</option>
+                    <option>500 grams</option>
+                    <option>750 grams</option>
+                    <option>1000 grams</option>
+                </select><br/>
+                <button class="buynow-btn">Buy Now</button>
+            </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+       
+       </div>
+   <!--Vegetables Ends Here-->
