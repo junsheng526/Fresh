@@ -5,7 +5,7 @@ body{
 }
 
 .parallax,.parallax1{
-     background-image:url("../img/background.png");
+     background-image:url("/img/background.png");
      height:max-content;
      background-attachment:fixed;
      background-position:center;
@@ -198,7 +198,7 @@ a{
 }
 
 .parallax1{
-   background-image:url('../img/footer background.png');
+   background-image:url('/img/footer background.png');
 }
 
 .footer{
